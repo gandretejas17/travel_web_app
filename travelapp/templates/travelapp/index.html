@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {% load static %}
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+  <link rel="stylesheet" type="text/css" href="{% static 'css/abc.css' %}" />
+  <link rel="icon" href="/travelapp/img/logo4.jpg" type="image/icon type">
+  <title>Mrunali Travels</title>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      <img src="/travelapp/img/logo4.jpg" width="40" height="35" class="d-inline-block align-top" alt="">&nbsp;
+      Mrunali Travels</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/travel/index/">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#wrapper">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#aboutus">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+      <div>
+        <a href="/login/" style="color: aliceblue;">Login</a>&nbsp;&nbsp;
+        <a href="/travel/register/" style="color: aliceblue;">Sign Up</a>&nbsp;&nbsp;
+
+      </div>
+
+    </div>
+  </nav><hr>
+  <div class='container1' style="text-align: center; background-color:lightgrey;"><br>
+    <h1 style="font: bold; color:maroon"> Our Packages</h1>
+    <h3><a href="/travel/a/" title="Click here for more Details"
+        style="color:deeppink;">Vaishnodevi/Badrinath/Kedarnath/Gangotri/Yamunotri (25 Days)</a></h3>
+    <h3><a href="/travel/b/" title="Click here for more Details"
+        style="color:green">Dwarka/Sorti-Somnath/Rajasthan/Gujarat (18 Days)</a></h3>
+    <h3><a href="/travel/c/" title="Click here for more Details"
+        style="color:blueviolet;">Rameshwar/Kanyakumari/South-India/Goa (22 Days) </a></h3>
+    <h3><a href="/travel/d/" title="Click here for more Details" style="color:mediumvioletred;">Gangasagar/Jagannathpuri/Nepal
+        (19 Days) </a></h3>
+    <h3><a href="/travel/e/" title="Click here for more Details"
+        style="color:orangered;">Ashtavinayak/5-Jyotirling/Maharashtra-Darshan (12 Days) </a></h3>
+  </div>
+  <hr>
+
+  <div class="wrapper" id="wrapper">
+    <div style="background-image:url(https://wallpapers.com/images/featured/9pd6c84fjldyenjg.jpg)"></div>
+      <div style="background-image:url(https://wallpaperaccess.com/full/4667087.jpg)"></div>
+      <div style="background-image:url(https://wallpapercave.com/wp/wp7010206.jpg)"></div>
+      <div style="background-image:url(https://wallpaperaccess.com/full/2170967.jpg)"></div>
+      <div
+        style="background-image:url(https://img.freepik.com/premium-photo/beautiful-landscape-view-pashupatinath-temple-during-maha-shivratri-festival-kathmandunepal_131480-741.jpg?w=2000)">
+      </div>
+      <div style="background-image:url(https://wallpapercave.com/wp/wp9198792.jpg)"></div>
+      <div
+        style="background-image:url(https://upload.wikimedia.org/wikipedia/en/2/25/Kapil_muni_temple%2C_Gangasagar_mela%2C_2017.jpg)">
+      </div>
+      <div style="background-image:url(https://wallpapercave.com/wp/wp6213229.jpg)"></div>
+      <div style="background-image:url(http://holidaystation.in/wp-content/uploads/2015/09/Ashtavinayak_daeshan.jpg)">
+      </div>
+    </div>  
+  </div>
+  <hr>
+
+  <div class="container2" style="background-color: lightgrey">
+    <div class="third-box" id="contact"><br>
+      <h2>Contact</h2><br>
+      <p><img src="https://img.icons8.com/ios-filled/512/place-marker.png" width="30px" height="30px">&nbsp;<a
+          href="https://goo.gl/maps/3gbicS2UFXozATPQ7">Pahadpura, Tilak Chowk, Karanja (Lad) </a> </p>
+      <p><img src="https://cdn-icons-png.flaticon.com/512/632/632313.png" width="30px" height="30px">&nbsp;<a href="#">
+          9423651737, 8080216321 </a> </p>
+      <p><img src="https://cdn-icons-png.flaticon.com/512/666/666162.png" width="30px" height="30px">&nbsp;<a
+          href="mailto:mrunalitravels@gmail.com">
+          mrunalitravels@gmail.com </a></p><br>
+    </div>
+
+    <div class="fourth-box" id="aboutus"><br>
+      <h2>About Us</h2><br>
+      <h6> Mrunali Travels is established in 1970 at Karanja Lad by Lt. Yadavrao Kisanrao Gandre and later in 2000 it is
+        hand over to
+        Mr. Arun Yadavrao Gandre and till now he is doing excellent job in their own way. MT delivers a great
+        service to all the customers including 2 times meal 1 time tea to everyday and from picking your
+        luggage to giving you a comfort accomodations that's how MT helps and regulates the Journey. </h6>
+    </div>
+
+    <div class="fifth-box"><br>
+      <h2> Follow Us </h2><br>
+      <a href="https://www.instagram.com/gandre_tejas17/"><img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"
+          width="30px" height="30px"></a> &nbsp;&nbsp;
+      <a href="https://m.facebook.com/tejas.gandre.7/"><img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png"
+          width="30px" height="30px"></a> &nbsp;&nbsp;
+      <a href="https://www.youtube.com/channel/UCo06wPwXF-PWV4sNlEoIxLw"><img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-color_icon_%282017%29.svg.png"
+          width="35px" height="30px"></a>
+
+
+    </div>
+    <br>
+
+  </div>
+  <hr>
+
+
+</body>
+
+</html>
